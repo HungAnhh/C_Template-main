@@ -18,6 +18,7 @@ int main()
 
     // double = floating point (64bit / 8byte)
     double my_number5 = 1.25;
+    ;
 
     return 0;
 }
