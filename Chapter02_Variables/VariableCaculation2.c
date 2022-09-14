@@ -8,19 +8,31 @@ int main()
     float c;
 
     // Addition
-    c = a + b;
+    c += a;
     printf("%f\n", c);
     // Subtraction
-    c = a - b;
+    c -= a;
     printf("%f\n", c);
 
     // Multiplication
-    c = a * b;
+    c *= a;
     printf("%f\n", c);
 
     // Division
-    c = a / b;
+    c /= a;
     printf("%f\n", c);
+
+    // an example to raise b +1
+    b = b + 1;
+    printf("%f\n", b);
+
+    // shorter version for the example
+    b += 1;
+    printf("%f\n", b);
+
+    // This version is like the others but more shorter
+    // b = b + 1; <=> b += 1; <=> b++
+    b++;
 
 
     return 0;
