@@ -1,5 +1,13 @@
 #include <stdio.h>
 
+enum Drink
+{
+    COLA = 0,
+    ICETEA = 1,
+    WATER = 2,
+    COFFEE = 3
+};
+
 
 int main()
 {
