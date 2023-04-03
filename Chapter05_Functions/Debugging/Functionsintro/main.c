@@ -4,11 +4,11 @@ void printEvenOrOdd(int number)
 {
     if (number % 2 == 0)
     {
-        printf("A is even!\n");
+        printf("%d is even!\n", number);
     }
     else
     {
-        printf("A is odd!\n");
+        printf("%d is odd!\n", number);
     }
 }
 
@@ -18,18 +18,9 @@ int main()
     int b = 3;
     int c = 4;
 
-    if (a % 2 == 0)
-    {
-        printf("A is even!\n");
-    }
-    if (b % 2 == 0)
-    {
-        printf("B is even!\n");
-    }
-    if (c % 2 == 0)
-    {
-        printf("C is even!\n");
-    }
+    printEvenOrOdd(a);
+    printEvenOrOdd(b);
+    printEvenOrOdd(c);
 
     return 0;
 }
